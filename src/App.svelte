@@ -9,30 +9,33 @@
 
 <main>
 	<h1>Hello Lazio Winter Cup!</h1>
-	<p>
-		Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
-		how to build Svelte apps.
-	</p>
+	<marquee><h2>Work in progress!!</h2></marquee>
 </main>
 
 <style>
+	palette {
+		color: #0c2032;
+		color: #bac74d;
+		color: #5679a4;
+		color: #b0d9f1;
+		color: #d6ede2;
+		color: #ecf1f1;
+	}
 	main {
 		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
 	}
 
-	h1 {
-		color: #ff3e00;
+	h1,
+	h2 {
 		text-transform: uppercase;
-		font-size: 4em;
+		font-size: 2em;
 		font-weight: 100;
+		padding: unset;
+		margin: unset;
 	}
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+	h2 {
+		font-size: 1.5em;
+		color: #5679a4;
 	}
 </style>
